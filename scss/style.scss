@@ -1,0 +1,16 @@
+.btn{
+	display: inline-block;
+	width: 100px;
+	height: 45px;
+	border: none;
+	-webkit-appearance: none;
+	border-radius: 0;
+	background: transparent;
+	text-indent: -9999px;
+	cursor: pointer;
+	overflow: hidden;
+
+	&.btn-search{
+		background-position: -250px 0;
+	}
+}
